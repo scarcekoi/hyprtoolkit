@@ -1,0 +1,17 @@
+---
+whiskers:
+  version: "^2.5.1"
+  matrix:
+    - flavor
+    - accent
+    - accent_secondary: ["rosewater", "flamingo", "pink", "mauve", "red", "maroon", "peach", "yellow", "green", "teal", "sky", "sapphire", "blue", "lavender"]
+  filename: "themes/{{flavor.identifier}}/{{accent}}/catppuccin-{{flavor.identifier}}-{{accent}}-{{accent_secondary}}.conf"
+  hex_format: "0x{{A}}{{R}}{{G}}{{B}}"
+---
+background = {{ mantle.hex }}
+base = {{ base.hex }}
+text = {{ text.hex }}
+alternate_base = {{ surface0.hex }}
+bright_text = {{ rosewater.hex }}
+accent = {{ flavor.colors[accent].hex }}
+accent_secondary = {{ flavor.colors[accent_secondary].hex }}
