@@ -40,6 +40,11 @@
 2. Copy the contents of the file of your choice from [themes](themes). File names are like so: `themes/<flavor>/<accent>/catppuccin-<flavor>-<accent>-<accent-secondary>.conf` into `~/.config/hypr/hyprtoolkit.conf`.
 3. Enjoy!
 
+## 🙋 FAQ
+
+- Q: **_"What is the app in the screenshot?"_**\
+  A: The app is [hyprlauncher](https://github.com/hyprwm/hyprlauncher). It is one of the apps that uses the hyprtoolkit theme.
+
 ## 💝 Thanks to
 
 - [Scarce Koi](https://github.com/scarcekoi)
