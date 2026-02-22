@@ -36,7 +36,7 @@
 
 ## Usage
 
-1. Make sure the config file exists by running `mkdir -p ~/.config/hypr` and `touch ~/.config/hypr/hyprtoolkit.conf`.
+1. Make sure the config directory exists by running `mkdir -p ~/.config/hypr` and the config file exists by running `touch ~/.config/hypr/hyprtoolkit.conf`.
 2. Copy the contents of the file of your choice from [themes](themes). File names are like so: `themes/<flavor>/<accent>/catppuccin-<flavor>-<accent>-<accent-secondary>.conf` into `~/.config/hypr/hyprtoolkit.conf`.
 3. Enjoy!
 
